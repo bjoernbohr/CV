@@ -1,0 +1,26 @@
+[
+  {
+    "TEXT": "Moin moin und Hallo, mein name ist Björn und ich bin UX Designer und Frontend Entwickler",
+    "IMG": "bjoern_02.jpg",
+    "TITLE": {
+      "01": {
+        "TEXT": "I make creative",
+        "DELAY": "550"
+      },
+      "02": {
+        "TEXT": "things everyday",
+        "DELAY": "750"
+      }
+    },
+    "INFO": {
+      "01": {
+        "LABEL": "Standort",
+        "TEXT": "Koblenz, Deutschland"
+      },
+      "02": {
+        "LABEL": "Erfahrung",
+        "TEXT": "+10 Jahre"
+      }
+    }
+  }
+]

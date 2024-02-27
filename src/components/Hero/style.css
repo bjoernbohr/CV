@@ -1,0 +1,7 @@
+.hero .simpleParallax {
+    @apply relative w-full overflow-hidden rounded-tr-220 rounded-tl-220  max-w-[280px] xl:max-w-[350px] h-[500px] xl:h-[650px] -z-[1];
+}
+
+.about .simpleParallax {
+    @apply rounded-br-220 rounded-bl-220  relative overflow-hidden w-[280px] lg:w-[350px] h-[500px] xl:h-[650px] -z-[1] md:z-[0];
+}
