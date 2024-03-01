@@ -3,6 +3,7 @@ import CONTENT from './../../assets/content/introduction.json'
   ;
 import React from 'react';
 import {UseViewport} from '../../Providers/ViewportProvider';
+import {SwiperCustom} from '../SwiperCustom/SwiperCustom';
 
 interface Intro {
   TITLE: string;
@@ -25,7 +26,7 @@ export const About = (): JSX.Element => {
             className={'img-figure relative overflow-hidden w-[280px] lg:w-[350px] h-[500px] xl:h-[650px] -z-[1] md:z-[0]'}
           >
             <img
-              className={'relative w-full h-full object-cover scale-x-[-1] rounded-br-220 rounded-bl-220 '}
+              className={'relative w-full h-full object-cover scale-x-[-1] rounded-br-220 rounded-bl-220'}
               src={`assets/img/${loadData[0].IMG}`}
               alt={'me again'}
             />
@@ -55,18 +56,24 @@ export const About = (): JSX.Element => {
         >
           <p className={'about-text text-waterloo font-montserrat text-base tracking-wide leading-6 text-start max-w-[450px]'}>
             {loadData[0].TEXT}
-            <p>
-              <p className={'pill'}>UX / Ui Konzeption</p>
-              <p className={'pill'}>Tailwind</p>
-              <p className={'pill'}>React</p>
-              <p className={'pill'}>Layout</p>
-              <p className={'pill'}>typescript</p>
-              <p className={'pill'}>Logo Entwicklung</p>
-              <p className={'pill'}>Scss</p>
-            </p>
+            <span>
+              <span className="skillset text-waterloo text-base tracking-widest font-semibold uppercase whitespace-nowrap bg-copperfield-100 mb-4 overflow-hidden w-full">Skillset</span>
+              <span className={'pill'}>UX / Ui Konzeption</span>
+              <span className={'pill'}>Javascript</span>
+              <span className={'pill'}>Tailwind</span>
+              <span className={'pill'}>Grafik Design</span>
+              <span className={'pill'}>React</span>
+              <span className={'pill'}>Adobe Palette</span>
+              <span className={'pill'}>Layoutsatz</span>
+              <span className={'pill'}>typescript</span>
+              <span className={'pill'}>Logo Entwicklung</span>
+              <span className={'pill'}>Scss</span>
+              <span className={'pill'}>Motion Graphics</span>
+              <span className={'pill'}>Magnolia CMS</span>
+            </span>
           </p>
         </div>
-
+        <SwiperCustom />
       </div>
       {width > breakpointTwo &&
         <div
