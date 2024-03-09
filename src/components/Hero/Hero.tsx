@@ -6,6 +6,7 @@ import "./style.css";
 
 import CONTENT from './../../assets/content/hero.json'
 import {UseViewport} from '../../Providers/ViewportProvider';
+import { Nav } from '../Nav/Nav';
 
 interface Person {
   TEXT: string;
@@ -42,7 +43,7 @@ const Text = ({ person }: Props): JSX.Element => {
 
   return(
     <div
-      className={'flex justify-between w-full lg:w-10/12 mt-8 lg:mt-12'}
+      className={'hero-text'}
     >
       <div className={'text-md font-montserrat tracking-wide'}>
         {
@@ -57,10 +58,10 @@ const Text = ({ person }: Props): JSX.Element => {
                   key={val['LABEL']}
                   className={'first:mb-4'}
                 >
-                  <h4 className={'text-copperfield text-base font-semibold tracking-widest uppercase'}>
+                  <h4>
                     {val['LABEL']}
                   </h4>
-                  <p className={'text-waterloo text-base tracking-widest pt-0.5'}>
+                  <p className={' pt-0.5'}>
                     {val['TEXT']}
                   </p>
                 </div>
@@ -93,39 +94,43 @@ export const Hero = (): JSX.Element => {
   }, [])
 
   return (
+    <>
+    {width>650&&
+      <Nav />
+    }
     <header
       id={'start'}
-      className={'hero container relative flex flex-wrap items-center justify-center w-full mx-auto mt-12 px-6 scroll-mt-32'}
+      className={'hero'}
     >
-      <div className={'w-full flex items-center justify-center xl:w-10/12'}>
-        <div className={'absolute flex flex-col items-center justify-center w-full h-auto'}>
-          <h1 className={'font-marcellus text-5xl md:text-8xl lg:text-7xl xl:text-8xl uppercase text-copperfield tracking-widest leading-tight text-center w-full lg:mt-64'} >
+      <div className={'w-full flex items-center justify-center'}>
+        <div className={'absolute md:relative flex flex-col items-center justify-center w-full h-auto'}>
+          <h1>
             {
               loadData.map(v => {
                 const infoVal = Object.values(v['TITLE']);
                 return infoVal.map(val => {
                   return (
+                    <p 
+                    key={val['DELAY']}
+                    className={'block relative'}
+                    >
                     <span
-                      key={val['DELAY']}
-                      className={'block relative'}
-                    >
-                    <p
-                      className={'font-marcellus relative -z-[1]'}
+                      className={'relative'}
                       data-aos={'fade-up'}
                       data-aos-once={'true'}
                       data-aos-delay={val['DELAY']}
                     >
                       {val['TEXT']}
-                    </p>
-                    <p
-                      className={'stroke absolute md:text-transparent inset-0 z-[1]'}
+                    </span>
+                    <span
+                      className={'stroke absolute md:text-transparent'}
                       data-aos={'fade-up'}
                       data-aos-once={'true'}
                       data-aos-delay={val['DELAY']}
                     >
                       {val['TEXT']}
-                    </p>
-                 </span>
+                    </span>
+                 </p>
                   )
                 })
               })
@@ -135,28 +140,31 @@ export const Hero = (): JSX.Element => {
             <Text person={loadData[0]} />
           }
         </div>
-        <figure className={'hero-img relative w-full overflow-hidden rounded-tr-220 rounded-tl-220  max-w-[280px] xl:max-w-[350px] h-[500px] xl:h-[650px] -z-[1]'}>
-          <img
-            src={`assets/img/${loadData[0].IMG}`}
-            alt={'Hero-img'}
-            data-aos={'fade-up'}
-            data-aos-once={'true'}
-            data-aos-delay={'250'}
-            className={'img rounded-tr-220 rounded-tl-220 w-full h-full object-cover'}
-          />
-          <span
-            data-aos={'fade-up'}
-            data-aos-once={'true'}
-            data-aos-delay={'50'}
-            className={'absolute bg-waterloo w-full h-full rounded-tr-220 rounded-tl-220 inset-0 -z-[1]'}
-          >
-          </span>
-        </figure>
+        <div className={'hero-img-wrapper'}>
+          <figure className={'hero-img'}>
+            <img
+              src={`assets/img/${loadData[0].IMG}`}
+              alt={'Hero-img'}
+              data-aos={'fade-up'}
+              data-aos-once={'true'}
+              data-aos-delay={'250'}
+              className={'img'}
+            />
+            <span
+              data-aos={'fade-up'}
+              data-aos-once={'true'}
+              data-aos-delay={'50'}
+              className={'img absolute bg-waterloo -z-[1]'}
+            >
+            </span>
+          </figure>
+        </div>
       </div>
       {width<breakpoint&&
         <Text person={loadData[0]} />
       }
     </header>
+    </>
   );
 }
 
