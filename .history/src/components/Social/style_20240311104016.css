@@ -1,0 +1,3 @@
+.social-wrapper {
+  @apply relative w-full my-12 md:my-24 px-6;
+}

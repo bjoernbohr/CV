@@ -1,0 +1,62 @@
+nav {
+      @apply fixed md:sticky flex justify-center w-full bottom-0 md:top-0 z-50 bg-copperfield-50 border-t border-copperfield;
+}
+
+nav::after {
+      content: '';
+      @apply hidden md:inline-block absolute inset-0 -z-[1] bg-copperfield-50 opacity-50;
+}
+
+nav menu  {
+      @apply absolute flex flex-wrap items-center justify-center pointer-events-none opacity-0 invisible bg-copperfield-50 translate-y-4 md:static md:pointer-events-auto md:translate-y-0 md:opacity-100 md:visible bottom-full transition-all duration-150 w-screen h-[calc(100dvh-56px)] md:h-auto; 
+      transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+      li {
+            @apply w-full
+      }
+}
+
+
+.menu-trigger {
+      @apply relative flex md:hidden justify-center items-center w-full py-3;
+}
+
+.menu-trigger.triggered + menu {
+      @apply pointer-events-auto opacity-100 visible translate-y-0 min-w-max;
+}
+
+.menu-trigger + menu {
+      @apply min-w-max;
+}
+.menu-trigger span {
+      @apply relative inline-flex flex-col justify-center items-center w-8 h-8;
+}
+
+.menu-trigger span::after,
+.menu-trigger span::before {
+      content: '';
+      @apply block h-[.12rem] bg-waterloo-900 max-w-[2rem] transition-all duration-150 w-10/12;
+      transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+}
+
+.menu-trigger span::before {
+      @apply -translate-y-0.5 translate-x-1;
+}
+
+.menu-trigger span::after {
+      @apply translate-y-0.5 -translate-x-1;
+}
+
+.menu-trigger.triggered span::before,
+.menu-trigger.triggered span::after,
+.menu-trigger:hover span::before,
+.menu-trigger:hover span::after {
+      @apply translate-x-0 bg-copperfield;
+}
+
+.menu-trigger.triggered span::before {
+      @apply rotate-45 translate-y-[.12rem];
+}
+
+.menu-trigger.triggered span::after {
+      @apply -rotate-45 -translate-y-0;
+}

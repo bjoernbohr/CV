@@ -1,0 +1,50 @@
+.hero {
+     @apply container relative flex flex-wrap items-center justify-center w-full mx-auto lg:min-h-[650px] py-12 md:my-12 lg:mt-0 lg:mb-24 2xl:mt-20 px-6 scroll-mt-32;
+      span {
+        @apply block tracking-[1rem] first:-z-[1] inset-0;
+    }
+    
+    h1 {
+        &::after {
+             content: '';
+             background-image: url("data:image/svg+xml,%3Csvg version='1.2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 550 1005' width='550' height='1005'%3E%3Cpath id='&lt;Path&gt;' class='s0' d='m273.3 0c-28.7 405.5-52 448.2-273.3 500.9 221.3 52.6 244.6 95.4 273.3 500.8 28.8-405.4 52.1-448.2 273.3-500.8-221.2-52.7-244.5-95.4-273.3-500.9z'/%3E%3C/svg%3E");
+             
+        }
+    }
+    h3 {
+        @apply p-0;
+    }
+}
+
+.hero-img-wrapper {
+    @apply  relative md:absolute w-full rounded-tr-220 rounded-tl-220  max-w-[280px] xl:max-w-[350px] h-[500px] xl:h-[650px] -z-[1];
+}
+
+.hero-img {
+    @apply w-full h-full;
+}
+
+.hero-img .img {
+    @apply rounded-tr-220 rounded-tl-220 w-full h-full object-cover inset-0;
+}
+
+.hero .btn-rounded {
+    @apply absolute w-24 h-24 font-semibold;
+}
+
+.hero .btn-rounded:first-child {
+    @apply left-0 right-4 bottom-4 sm:-left-6 top-4 md:first:left-10 md:top-10 2xl:-top-10 2xl:left-14;
+}
+
+
+.hero .btn-rounded:last-child {
+    @apply bottom-0;
+}
+
+.btn-rounded {
+    @apply relative text-center flex justify-center items-center font-montserrat text-copperfield border border-copperfield text-base tracking-widest w-20 h-20 z-[99] backdrop-blur-lg rounded-full;
+}
+
+.hero-text {
+    @apply flex justify-between w-full lg:w-10/12 translate-y-10 lg:translate-y-24 xl:translate-y-16 2xl:translate-y-28;
+}

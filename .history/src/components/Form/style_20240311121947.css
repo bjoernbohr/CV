@@ -1,0 +1,40 @@
+.contact-wrapper {
+  @apply relative lg:w-10/12 mx-auto my-12 md:my-24 px-6 bg-transparent;
+  h2 {
+    @apply top-24;
+  }
+}
+.contact-inner { 
+  @apply flex flex-wrap items-center justify-center;
+}
+.contact-text {
+  @apply relative flex flex-col items-center w-full max-w-[365px] h-fit bg-waterloo-900 rounded-tr-full rounded-tl-full pt-32 px-12;
+  p {
+    @apply text-copperfield-50 text-center; 
+  }
+  h3 {
+    @apply text-copperfield-50 bg-transparent p-0 mt-4; 
+  }
+  .btn-rounded {
+    @apply top-12 w-24 h-24 bg-copperfield p-4 pr-5 transition-all duration-150;
+    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+    svg path {
+      @apply stroke-waterloo-900 transition-all duration-150;
+      transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+      stroke-width: 2px;
+    }
+    &::after {
+      @apply hidden;
+    }
+    &:hover {
+      @apply bg-copperfield-700;
+      svg path {
+        @apply stroke-copperfield-50;
+      }
+    } 
+  }
+  &::after {
+    content: ' ';
+    @apply absolute border border-copperfield -inset-x-4 -inset-y-3 rounded-tr-full rounded-tl-full;
+  }
+}

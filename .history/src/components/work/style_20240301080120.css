@@ -1,0 +1,40 @@
+.work-wrapper .num {
+    @apply relative w-full;
+    &::after {
+        content: '';
+        @apply inline-flex w-full h-px bg-waterloo pl-2;
+    }
+}
+
+.work-container {
+    @apply cursor-pointer;
+}
+
+
+.work-container a {
+    @apply absolute inset-0 z-[99];
+}
+
+.work-container .non-stroke {
+    @apply opacity-100 md:opacity-0;
+}
+
+.work-container:hover .non-stroke {
+    @apply opacity-100 transition-all ease-in-out duration-150;
+}
+
+.work-container img {
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    z-index: 1;
+    object-fit: contain;
+    @apply hidden md:inline transition-all ease-in-out duration-150;
+}
+.work-container img.visible {
+    visibility: visible;
+    @apply opacity-100
+}

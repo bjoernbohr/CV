@@ -1,0 +1,15 @@
+.divider {
+    @apply flex items-center justify-center relative px-6 w-full;
+}
+
+.divider h3 {
+    @apply px-1 bg-copperfield-50;
+}
+
+.divider hr {
+    @apply transition-all ease-in-out duration-300 delay-200 absolute h-[1px] border-waterloo w-0 top-1/2 -translate-y-1/2 -z-[1];
+}
+
+.divider.aos-animate hr {
+    @apply w-full delay-350
+}

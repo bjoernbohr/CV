@@ -1,0 +1,41 @@
+.hero {
+     @apply container relative flex flex-wrap items-center justify-center w-full mx-auto lg:min-h-[650px] py-12 md:my-12 mt-12 lg:mt-0 lg:mb-24 2xl:mt-20 px-6 scroll-mt-32;
+      span {
+        @apply block tracking-[1rem] first:-z-[1] inset-0;
+    }
+    h3 {
+        @apply p-0;
+    }
+
+.hero-img-wrapper {
+    @apply  relative md:absolute w-full rounded-tr-220 rounded-tl-220  max-w-[280px] xl:max-w-[350px] h-[500px] xl:h-[650px] -z-[1];
+}
+
+.hero-img {
+    @apply w-full h-full;
+}
+
+.hero-img .img {
+    @apply rounded-tr-220 rounded-tl-220 w-full h-full object-cover inset-0;
+}
+
+.hero .btn-rounded {
+    @apply absolute w-24 h-24 font-semibold;
+}
+
+.hero .btn-rounded:first-child {
+    @apply left-0 right-4 bottom-4 sm:-left-6 top-4 md:first:left-10 md:top-10 2xl:-top-10 2xl:left-14;
+}
+
+
+.hero .btn-rounded:last-child {
+    @apply bottom-0;
+}
+
+.btn-rounded {
+    @apply relative text-center flex justify-center items-center font-montserrat text-copperfield border border-copperfield text-base tracking-widest w-20 h-20 z-[99] backdrop-blur-lg rounded-full;
+}
+
+.hero-text {
+    @apply flex justify-between w-full lg:w-10/12 translate-y-10 lg:translate-y-24 xl:translate-y-16 2xl:translate-y-28;
+}

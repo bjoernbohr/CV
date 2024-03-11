@@ -1,0 +1,25 @@
+.work {
+    &-wrapper {
+        @apply relative md:flex justify-between items-start lg:w-10/12 mx-auto my-12 md:my-24 px-6;
+    }
+    
+}
+
+
+.work-container img {
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    z-index: 1;
+    object-fit: contain;
+    @apply hidden md:inline transition-all ease-in-out duration-150;
+    &.visible {
+        visibility: visible;
+        @apply opacity-100
+    }
+    
+}
+

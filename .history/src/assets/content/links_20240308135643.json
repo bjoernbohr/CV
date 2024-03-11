@@ -1,0 +1,20 @@
+[
+  {
+      "01": {
+        "TITLE": "Gut zu wissen",
+        "LINK": "uebermich"
+      },
+      "02": {
+        "TITLE": "Erfahrung",
+        "LINK": "erfahrung"
+      },
+      "03": {
+        "TITLE": "Case Studies",
+        "LINK": "Casestudies"
+      },
+      "04": {
+        "TITLE": "Sag Hi",
+        "LINK": "kontakt"
+      }
+  }
+]

@@ -1,0 +1,7 @@
+.contact-wrapper {
+  @apply relative lg:w-10/12 mx-auto my-12 md:my-24 px-6 bg-transparent;
+}
+
+.contact-text {
+  @apply relative flex flex-col items-center h-fit bg-waterloo-900 rounded-tr-[999px] rounded-tl-full;
+}

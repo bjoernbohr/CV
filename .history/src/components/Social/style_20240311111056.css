@@ -1,0 +1,24 @@
+.social-wrapper {
+  @apply relative w-full my-12 md:my-24;
+  .rfm-marquee-container:nth-child(even) {
+    a {
+      @apply bg-copperfield text-transparent;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: theme(colors.copperfield.100);
+    }
+    &:hover a {
+      @apply bg-transparent text-copperfield;
+      -webkit-text-stroke-width: 0;
+    }
+  }
+  .rfm-marquee-container:nth-child(odd) {
+    &:hover a {
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: theme(colors.copperfield.100);
+    }
+  }
+  a {
+    @apply inline-block font-marcellus text-6xl sm:text-7xl md:text-8xl lg:text-8xl xl:text-9xl uppercase text-copperfield tracking-widest leading-none text-center w-min 2xl:w-full py-2 transition-all duration-150;
+    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+  }
+}
