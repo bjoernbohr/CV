@@ -1,0 +1,16 @@
+.hero-sub {
+  @apply mt-24 sm:flex-row;
+}
+
+
+.hero-sub figure {
+  @apply -mt-10 w-6/12;
+}
+
+.hero-sub figure img {
+  @apply h-[250px] sm:h-[500px] object-contain;
+}
+
+.hero-sub p {
+  @apply mt-6;
+}

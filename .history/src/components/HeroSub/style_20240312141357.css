@@ -1,0 +1,32 @@
+.hero-sub {
+  @apply mt-24 sm:my-12 sm:flex-row;
+}
+
+.hero-sub > div {
+  @apply w-full h-full sm:w-6/12;
+}
+
+.hero-sub h1 {
+  @apply sm:ml-14;
+}
+
+.hero-sub h1 span {
+  @apply text-4xl sm:text-7xl md:text-8xl lg:text-8xl xl:text-9xl uppercase;
+}
+
+.hero-sub h1 span:first-of-type {
+ @apply text-red-500 z-[1];}
+
+
+.hero.hero-sub figure {
+  @apply sm:relative sm:w-6/12 -mt-10 sm:mt-0 h-[250px] sm:h-[500px] -z-[0];
+}
+
+
+.hero-sub figure img {
+  @apply  w-full h-full object-contain;
+}
+
+.hero-sub p {
+  @apply mt-6 sm:pr-8;
+}

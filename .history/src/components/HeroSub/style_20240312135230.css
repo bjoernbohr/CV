@@ -1,0 +1,7 @@
+.hero-sub {
+  @apply mt-24 lg:flex-col;
+}
+
+.hero-sub figure {
+  @apply relative -mt-10;
+}

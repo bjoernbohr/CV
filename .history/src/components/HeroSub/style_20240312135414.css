@@ -1,0 +1,7 @@
+.hero-sub {
+  @apply mt-24 lg:flex-row;
+}
+
+.hero-sub figure {
+  @apply -mt-10;
+}
