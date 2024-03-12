@@ -1,0 +1,45 @@
+.swiper-custom-wrapper {
+  @apply relative items-start lg:w-10/12 mx-auto my-12 md:my-24 px-6;
+}
+
+.swiper-custom-wrapper::after {
+  content: '';
+  @apply absolute inset-x-12 top-16 bottom-[160px] pointer-events-none border border-copperfield z-[0];
+}
+
+
+
+.swiper-custom-content {
+  @apply w-full;
+}
+
+.swiper-custom-content p{
+  @apply mt-4 mb-8 px-12;
+}
+
+@media (max-width:650px) {
+  .swiper-custom-content h2 span {
+      @apply text-4xl;
+    }
+}
+
+.swiper-custom-swipes {
+  @apply relative w-full h-[320px] md:px-20;
+}
+
+.swiper .swiper-slide {
+  @apply w-full h-auto;
+}
+
+.swiper .swiper-slide img{
+  @apply w-full h-auto object-contain;
+}
+
+.swiper {
+  @apply static h-[320px];
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  @apply -top-10;
+}

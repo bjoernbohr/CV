@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.stroke {
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: theme(colors.copperfield.500);
+}
+
+@media screen and (min-width: 768px) {
+    .stroke {
+        -webkit-text-stroke-width: 2px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+    @apply overflow-x-hidden;
+}
+
+
+form {
+    @apply w-full;
+}
+
+input[type="text"],
+textarea {
+    -webkit-appearance: none;
+    @apply border-b-2 border-copperfield-100 bg-transparent text-copperfield-100;
+}
+
+h1, h1 span {
+    @apply relative font-marcellus text-6xl sm:text-7xl md:text-8xl lg:text-8xl xl:text-9xl uppercase text-copperfield tracking-widest leading-none text-center w-min 2xl:w-full md:top-4 lg:top-12;
+}
+
+h2, h2 span {
+    @apply relative font-marcellus text-5xl sm:text-6xl md:text-7xl xl:text-8xl uppercase text-copperfield tracking-widest leading-tight text-center  mx-auto pointer-events-none z-[1];
+}
+
+h2 {
+    span {
+        &:first-child {
+            @apply -z-[1];
+        }
+    }
+    .stroke {
+        @apply absolute text-transparent inset-0 z-[2];
+    }
+}
+
+.number,
+.date,
+h3 {
+    @apply text-copperfield text-base tracking-widest font-semibold uppercase whitespace-nowrap px-1 bg-copperfield-50;
+
+}
+
+h4 {
+    @apply font-marcellus text-2xl uppercase text-copperfield tracking-widest leading-tight w-full;
+}
+
+p {
+      @apply text-waterloo font-montserrat text-base tracking-wide leading-6 text-start w-full;
+}
+
+.btn-rounded {
+    @apply relative text-center flex justify-center items-center font-montserrat text-copperfield border border-copperfield text-base tracking-widest w-20 h-20 z-[99] backdrop-blur-lg rounded-full;
+}
+
+.btn-primary{
+    @apply relative text-center flex justify-center items-center font-montserrat border border-copperfield text-base tracking-widest w-fit;
+}
+
+footer, section {
+    @apply relative;
+    .d-element {
+        @apply static;
+        &::before,
+        &::after {
+             content: '';
+             background-image: url("data:image/svg+xml,%3Csvg version='1.2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 550 1005' %3E%3Cpath fill='rgba(226, 199, 165,1)'  d='m273.3 0c-28.7 405.5-52 448.2-273.3 500.9 221.3 52.6 244.6 95.4 273.3 500.8 28.8-405.4 52.1-448.2 273.3-500.8-221.2-52.7-244.5-95.4-273.3-500.9z'/%3E%3C/svg%3E");
+             @apply absolute w-12 h-12 lg:w-16 lg:h-16 -z-[2] bg-no-repeat bg-center bg-contain;
+        }
+        &:first-of-type {
+              @apply before:top-4 before:left-4 after:bottom-4 after:right-4;
+    
+        }
+        &:last-of-type {
+              @apply before:top-48 before:right-12 after:bottom-32 after:left-12;
+              &::after {
+                    @apply w-20 h-20;
+              }
+    
+        }
+    }
+}
+
+main {
+    @apply container scroll-smooth mx-auto;
+}

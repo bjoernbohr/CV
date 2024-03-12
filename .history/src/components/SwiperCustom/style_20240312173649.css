@@ -1,0 +1,8 @@
+.swiper-slide {
+  @apply w-full bg-red-500 !important;
+}
+
+
+.swiper-wrapper {
+  @apply flex!important;
+}

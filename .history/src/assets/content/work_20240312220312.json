@@ -1,0 +1,63 @@
+[
+  {
+    "INFO": {
+      "00": {
+        "TITLE": "Landgard EDV Ring",
+        "SUB": "Anforderungsaufnahme, Konzeption, Umsetzung, Kundenbetreuung",
+        "INTRO": "Der Webauftritt des Kunden sollte modernisiert und verbessert werden. Das Hauptziel bestand darin, die Produkte und Dienstleistungen des Kunden im Bereich 'Software für die Grüne Branche' optimal zu präsentieren. Zusätzlich sollte die Website das Image von EDV-Ring als traditionsbewussten, innovativen und genossenschaftlichen Partner vermitteln.",
+        "SOLUTION": "Der Ansatz konzentrierte sich darauf, eine benutzerfreundliche Website zu entwickeln, die die maßgeschneiderten Individualentwicklungen des Kunden ansprechend präsentiert. Es wurde eine klare Strukturierung und Navigation implementiert, um Besuchern ein leichtes Navigieren zu ermöglichen. Durch die Integration von aussagekräftigen Inhalten und visuellen Elementen wurde die Fachkompetenz und Innovationskraft von EDV-Ring hervorgehoben.",
+        "TODOS": "Bedarfsanalyse, UX & UI Konzeption, Wireframes, MockUps, Development (mangolia CMS)",
+        "IMG": "./assets/img/EDV.png",
+        "URL": "https://drive.proton.me/urls/MB4C8THHHG#YeehVfJbcQHz",
+        "WIREFRAMES": "EDV.png, EDV.png,EDV.png,EDV.png,"
+      },
+      "01": {
+        "TITLE": "HACCP24",
+        "SUB": "UX Konzeption",
+        "IMG": "./assets/img/haccp.png",
+        "URL": "https://drive.proton.me/urls/P1W4G42V4R#8QBecM2zRx8X"
+      },
+      "02": {
+        "TITLE": "Kommunen Verlgiechssystem",
+        "SUB": "UX Konzeption",
+        "IMG": "./assets/img/ikvs.png",
+        "URL": "https://www.figma.com/file/98xef2Ju7McjusTXHMrlaq/IKVS_new?type=design&node-id=0%3A1&mode=design&t=l6RakeT5GhHgL0WW-1"
+      },
+      "03": {
+        "TITLE": "3D Konfigurator",
+        "SUB": "UX Konzeption, Umsetzung, Design",
+        "IMG": "./assets/img/lichtschienen.png",
+        "URL": "https://drive.proton.me/urls/T57M8KJ4NM#2vvHzWSznVql"
+      },
+      "04": {
+        "TITLE": "Ecoparks",
+        "SUB": "UX Konzeption",
+        "IMG": "./assets/img/ecopark.png",
+        "URL": "https://www.figma.com/file/FEp4WbfcV1vzbaNMz4YmVf/EcoParks_new?type=design&node-id=0%3A1&mode=design&t=Fp1hpABHlFyv5o9F-1"
+      },
+      "05": {
+        "TITLE": "Easysmile",
+        "SUB": "Logo Entwicklung, Konzept, Layout, Umsetzung",
+        "IMG": "./assets/img/easysmile.png",
+        "URL": "https://drive.proton.me/urls/0187FACHH0#PM9T0yCdrBbg",
+        "ASSETS": {
+          "01": {
+            "TITLE": "Logo",
+            "INFO": "Das Logo sollte schlicht wirken, aber gleichzeitig eine klare Abgrenzung zum klassischen Zahnarztdesign aufweisen. Es sollte auf allen Bildschirmgrößen gut erkennbar sein und auch als App-Icon verwendet werden können.",
+            "IMAGES": "EDV.png, EDV.png, EDV.png, EDV.png"
+          },
+          "02": {
+            "TITLE": "Wireframes",
+            "INFO": "Das Ziel bestand darin, eine Vielzahl von Anwendungen schnell zugänglich zu machen, ohne die Benutzer zu überfordern. Zusätzlich sollten die einzelnen Behandlungen favorisiert werden können und die jeweiligen Abrechnungsgrundlagen enthalten.",
+            "IMAGES": "EDV.png, EDV.png, EDV.png, EDV.png"
+          },
+          "03": {
+            "TITLE": "MockUps",
+            "INFO": "Basierend auf den Ergebnissen der Wireframes wurden die folgenden High- Fidelity-Mockups erstellt.",
+            "IMAGES": "EDV.png, EDV.png, EDV.png, EDV.png"
+          }
+        }
+      }
+    }
+  }
+]

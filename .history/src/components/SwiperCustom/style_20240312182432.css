@@ -1,0 +1,36 @@
+.swiper-custom-wrapper {
+  @apply relative items-start lg:w-10/12 mx-auto my-12 md:my-24 px-6;
+}
+
+.swiper-custom-wrapper::after {
+  content: '';
+  @apply absolute pointer-events-none border border-copperfield;
+}
+
+
+
+.swiper-custom-content {
+  @apply w-full;
+}
+
+.swiper-custom-content p{
+  @apply mt-4 mb-6;
+}
+
+@media (max-width:650px) {
+  .swiper-custom-content h2 span {
+      @apply text-4xl;
+    }
+}
+
+.swiper {
+  @apply w-full h-[320px]];
+}
+
+.swiper .swiper-slide {
+  @apply w-full h-full;
+}
+
+.swiper .swiper-slide img{
+  @apply w-full h-full object-contain;
+}
