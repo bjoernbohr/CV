@@ -10,7 +10,7 @@ const App = () => {
       <Nav />
         <HashRouter>
           <Routes>
-            <Route path="/CV" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/casestudies/:id" element={<CaseStudies />} />
           </Routes>
         </HashRouter>
