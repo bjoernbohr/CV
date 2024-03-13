@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'; 
+import { useLocation, useParams } from 'react-router-dom'; 
 import { HeroSub } from '../../components/HeroSub/HeroSub';
 import { SelectedObjectProvider  } from '../../Providers/WorkProvider';
 import { ViewportProvider } from '../../Providers/ViewportProvider';
@@ -7,11 +7,15 @@ import { Text } from '../../components/Text/Text';
 import { SwiperWrapper } from '../../components/SwiperWrapper/SwiperWrapper';
 import { CrossSelling } from '../../components/CrossSelling/CrossSelling';
 import  data  from '../../assets/content/work.json';
+import ScrollToTop from '../../hooks/ScrollToTop';
 
 
 export const CaseStudies = (): JSX.Element => {
+
+
 const randomId = Math.floor(Math.random() * Object.keys(data[0].INFO).length);  
 const { id } = useParams() as { id: string };
+
 
   return (
     <ViewportProvider>  

@@ -8,6 +8,7 @@ import CONTENT from '../../assets/content/work.json';
 const loadData = [...CONTENT];
 
 export const Work = (): JSX.Element => {
+
   const containerRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {

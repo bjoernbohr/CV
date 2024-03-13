@@ -14,9 +14,28 @@ export const CrossSelling = (props: CrossSellingProps): JSX.Element => {
     <>
       <Divider title={'Weitere Projekte'} />
       <section className={'cross-selling'}>
-        <Link to={`casestudies/${selectedObject?.ID}`}/>
-        <h2>{selectedObject?.TITLE}</h2>
-        <label className={'btn-primary'} >Auch Interessant</label>
+        <Link to={`/./CV/casestudies/${selectedObject?.ID}#start`}/>
+        <div className={'title'}>
+          <h2
+              data-aos={'fade-up'}
+              data-aos-once={'true'}
+              data-aos-delay={300}
+              data-aos-offset={150}
+          >
+            {selectedObject?.TITLE}
+            </h2>
+        </div>
+        <div className={'label'}>
+          <label 
+            className={'btn-primary'} 
+            data-aos={'fade-up'}
+            data-aos-once={'true'}
+            data-aos-delay={450}
+            data-aos-offset={150}
+          >
+            Auch Interessant
+            </label>
+        </div>
         <span className={'d-element'}></span>
         <span className={'d-element'}></span>
       </section>

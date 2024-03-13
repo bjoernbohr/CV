@@ -55,19 +55,28 @@
 
 .skilllist {
       @apply mt-4;
-      h3 {
-            @apply relative text-copperfield text-base tracking-widest font-semibold uppercase whitespace-nowrap bg-copperfield-50 overflow-hidden;
-            &::after {
-                  content: '';
-                  @apply inline-block w-full h-[1px] bg-waterloo ml-2;
-            }
+}
+
+.skilllist ul {
+      @apply flex flex-wrap -mx-2 mt-2;
+      .skill {
+            @apply text-base text-waterloo-700 font-montserrat border border-copperfield m-1.5 px-2 py-1;
       }
-      ul {
-            @apply flex flex-wrap -mx-2 mt-2;
-            .skill {
-                 @apply text-base text-waterloo-700 font-montserrat border border-copperfield m-1.5 px-2 py-1;
-            }
-      }
+      
+}
+
+.skilllist .skill {
+      @apply text-base text-waterloo-700 font-montserrat border border-copperfield m-1.5 px-2 py-1;
+}
+      
+
+.skilllist h3 {
+      @apply relative text-copperfield text-base tracking-widest font-semibold uppercase whitespace-nowrap bg-copperfield-50 overflow-hidden;
+}
+
+.skilllist h3::after {
+      content: '';
+      @apply inline-block w-full h-[1px] bg-waterloo ml-2;      
 }
 
 

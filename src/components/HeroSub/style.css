@@ -1,5 +1,5 @@
 .hero-sub {
-  @apply my-12 sm:flex-row;
+  @apply my-12 sm:flex-row scroll-mt-0;
 }
 
 .hero-sub .hero-sub-content {
@@ -31,6 +31,10 @@
 
 .hero.hero-sub figure {
   @apply sm:relative sm:self-center xl:self-start md:w-6/12 lg:w-7/12 h-[250px] sm:h-auto -z-[0] -mt-8 md:m-0 ;
+}
+
+.hero.hero-sub figure span {
+  @apply absolute inset-0 -z-[1] bg-waterloo;
 }
 
 

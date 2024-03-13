@@ -31,20 +31,19 @@
 }
 
 .swiper-custom-content .title span {
-  @apply absolute hidden xl:inline top-0 font-marcellus text-transparent text-5xl sm:text-6xl md:text-7xl xl:text-8xl uppercase tracking-widest leading-tight text-center  mx-auto pointer-events-none z-[2];
+  @apply absolute hidden xl:inline  top-0 font-marcellus text-transparent text-5xl sm:text-6xl md:text-7xl xl:text-8xl uppercase tracking-widest leading-tight text-left mx-auto pointer-events-none z-[2];
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: theme(colors.copperfield.500);
-
 }
 
 
-.swiper-custom-content p{
+.swiper-custom-content p {
   @apply mt-6 mb-8 px-11 sm:px-6 max-w-[450px];
 }
 
 @media (max-width:650px) {
   .swiper-custom-content h2 span {
-      @apply text-4xl;
+      @apply text-4xl text-left;
     }
 }
 

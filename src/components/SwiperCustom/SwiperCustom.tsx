@@ -62,7 +62,7 @@ export const SwiperCustom = (props: CustomSwiperProps): JSX.Element => {
 
             {props.images && props.images.map((image:string, index:any) => (
               <SwiperSlide key={index}>
-                <img src={`/./assets/img/${image}`} alt="" />
+                <img src={`../assets/img/${image}`} alt="" />
               </SwiperSlide>
             ))}
           </Swiper>

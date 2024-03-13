@@ -6,7 +6,13 @@ export const Text = (): JSX.Element => {
 
   if(selectedObject?.SOLUTION) {
     return (
-      <section className={'text-wrapper '} >
+      <section 
+        className={'text-wrapper '} 
+        data-aos={'fade-up'}
+        data-aos-once={'true'}
+        data-aos-delay={300}
+        data-aos-offset={150}
+      >
         <p>
           {selectedObject?.SOLUTION}
         </p>
