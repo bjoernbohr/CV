@@ -1,4 +1,5 @@
-import { BrowserRouter as Routes, Route, HashRouter  } from 'react-router-dom';import { Home } from './pages/Home/Home';
+import { BrowserRouter as Routes, Route, HashRouter  } from 'react-router-dom';
+import { Home } from './pages/Home/Home';
 import { CaseStudies } from './pages/CaseStudies/CaseStudies';
 import { Footer } from './components/Footer/Footer';
 import { Nav } from './components/Nav/Nav';

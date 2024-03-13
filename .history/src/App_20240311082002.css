@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer utilities {
-  .h1 {
-      @apply relative font-marcellus text-6xl sm:text-7xl md:text-8xl lg:text-8xl xl:text-9xl uppercase text-copperfield tracking-widest leading-none text-center w-min 2xl:w-full md:top-4 lg:top-12;
-  }
-}
