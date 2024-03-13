@@ -6,6 +6,12 @@ nav > div {
       @apply flex items-center justify-center md:justify-end md:mx-auto md:container;
 }
 
+
+nav > div:has(.back-button) {
+      @apply justify-between;
+}
+
+
 nav .menu  {
       @apply fixed md:border border-l-0 border-r-0 border-t-0 border-copperfield-50 flex flex-col justify-center pointer-events-none opacity-0 invisible bg-copperfield-50 translate-y-4 md:-translate-y-4 bottom-[57px] md:top-[57px] md:bottom-[unset] transition-all duration-150 w-full h-[calc(100dvh-120px)] min-w-full; 
       transition-timing-function: cubic-bezier(.17,.67,.83,.67);
@@ -108,13 +114,6 @@ nav .menu li a:hover {
 }
 
 .triggered + .menu li {
-      .link {
-            @apply opacity-100 translate-y-0;
-            &:hover {
-                  @apply delay-0 !important;
-            }
-            
-      }
       .link-0 {
             @apply delay-150
       }
@@ -127,4 +126,30 @@ nav .menu li a:hover {
       .link-3 {
             @apply delay-[.45s];
       }
+}
+
+.triggered + .menu li .link {
+      @apply opacity-100 translate-y-0;
+}
+
+.triggered + .menu li .link:hover {
+      @apply delay-0 !important;
+}
+
+.triggered + .menu li .link-0 {
+      @apply delay-150
+}
+
+.triggered + .menu li .link-1 {
+      @apply delay-[.25s]
+}
+
+
+.triggered + .menu li .link-2 {
+      @apply delay-[.35s]
+}
+
+
+.triggered + .menu li .link-3 {
+      @apply delay-[.45s];
 }

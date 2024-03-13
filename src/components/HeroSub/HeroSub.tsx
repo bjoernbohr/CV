@@ -74,6 +74,16 @@ export const HeroSub = (props: HeroSubProps): JSX.Element => {
               >
                 {selectedObject?.TITLE}
               </span>
+              {selectedObject?.PROJECTLINK ?
+                <a 
+                  className={'btn-primary'} 
+                  href={selectedObject?.PROJECTLINK} 
+                  title={`Link zu ${selectedObject?.TITLE} Projektseite`}
+                >
+                  Ansehen
+                </a>
+                : ''
+              }
             </p>
           </h1>
           {width>768&&

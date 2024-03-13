@@ -4,6 +4,7 @@ import  CONTENT  from '../assets/content/work.json';
 type SelectedObjectType = {
   ID: string;
   TITLE: string;
+  PROJECTLINK?: string;
   SUB: string;
   INTRO: string;
   SOLUTION: string;

@@ -6,16 +6,17 @@ import { Nav } from './components/Nav/Nav';
 import ScrollToTop from './hooks/ScrollToTop';
 
 const App = () => {
+
   return (
     <>
-      <Nav />
-        <Router>
-          <ScrollToTop />
-          <Routes>
-            <Route path="/CV" element={<Home />} />
-            <Route path="/CV/casestudies/:id" element={<CaseStudies />} />
-          </Routes>
-        </Router>
+      <Router>
+        <Nav />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/CV" element={<Home />} />
+          <Route path="/CV/casestudies/:id" element={<CaseStudies />} />
+        </Routes>
+      </Router>
       <Footer />
     </>
   );

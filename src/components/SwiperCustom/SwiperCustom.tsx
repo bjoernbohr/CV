@@ -44,15 +44,32 @@ export const SwiperCustom = (props: CustomSwiperProps): JSX.Element => {
               {props.title}
             </span>
           </div>
-          <p>
+          <p
+            data-aos={'fade-up'}
+            data-aos-once={'true'}
+            data-aos-delay={300}
+            data-aos-offset={250}
+          >
             {props.text}
             {props.link ?
-              <a href={props.link} title={`Link zu ${props.title}`}>Ansehen</a>
+              <a 
+                className={'btn-primary'} 
+                href={props.link} 
+                title={`Link zu ${props.title}`}
+              >
+                Ansehen
+              </a>
               : ''
             }
           </p>
         </div>
-        <div className={'swiper-custom-swipes'}>
+        <div 
+          className={'swiper-custom-swipes'}
+          data-aos={'fade-up'}
+          data-aos-once={'true'}
+          data-aos-delay={250}
+          data-aos-offset={250}
+        >
           <Swiper
             spaceBetween={20}
             slidesPerView={1}

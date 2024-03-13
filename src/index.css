@@ -69,9 +69,13 @@ p {
     @apply relative text-center flex justify-center items-center font-montserrat text-copperfield border border-copperfield text-base tracking-widest w-20 h-20 z-[99] backdrop-blur-lg rounded-full;
 }
 
-.btn-primary{
-    @apply relative text-center flex justify-center items-center font-montserrat border border-copperfield text-base tracking-widest w-fit px-3 py-5;
+.btn-primary {
+    @apply relative text-center flex justify-center items-center font-montserrat border border-copperfield text-base tracking-widest w-fit px-3 py-5 mt-5 transition-all ease-in-out duration-150 ;
 }
+
+.btn-primary:hover {
+    @apply -translate-y-1;
+    box-shadow: 0 0.5em 0.5em -0.4em theme(colors.copperfield.500);}
 
 footer, section {
     @apply relative;
