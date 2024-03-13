@@ -7,15 +7,15 @@
 }
 
 .hero-sub h1 {
-  @apply mx-auto sm:ml-14 md:max-w-[750px] w-fit lg:pt-4;
+  @apply mx-auto sm:ml-14 w-fit lg:pt-4;
 }
 
 .hero-sub h1 p {
-  @apply  w-full;
+  @apply  w-fit;
 }
 
 .hero-sub h1 span {
-  @apply text-4xl sm:text-7xl lg:text-8xl uppercase w-full;
+  @apply text-4xl sm:text-7xl xl:text-8xl uppercase w-full;
 }
 
 .hero-sub h1 span:first-of-type {
@@ -30,7 +30,7 @@
  }
 
 .hero.hero-sub figure {
-  @apply sm:relative sm:self-center xl:self-start md:w-6/12 lg:w-7/12 h-[250px] sm:h-auto -z-[0] -mt-8 md:m-0 ;
+  @apply relative sm:self-center xl:self-start md:w-6/12 lg:w-7/12 h-[250px] sm:h-auto -z-[0] -mt-8 md:m-0 overflow-hidden;
 }
 
 .hero.hero-sub figure span {

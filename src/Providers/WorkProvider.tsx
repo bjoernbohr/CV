@@ -10,11 +10,13 @@ type SelectedObjectType = {
   SOLUTION: string;
   TODOS: string;
   IMG: string;
+  FIGMA?: string;
   ASSETS: {
     [key: string]: {
       TITLE: string;
       INFO: string;
       IMAGES: string;
+      URL: string;
     };
   };
 };

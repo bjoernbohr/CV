@@ -12,6 +12,7 @@ export type CustomSwiperProps = {
   text?: string;
   link?: string;
   images?: string[];
+  url?: string;
 }
 
 export const SwiperCustom = (props: CustomSwiperProps): JSX.Element => {
@@ -51,13 +52,14 @@ export const SwiperCustom = (props: CustomSwiperProps): JSX.Element => {
             data-aos-offset={250}
           >
             {props.text}
-            {props.link ?
+            {props.url ?
               <a 
                 className={'btn-primary'} 
-                href={props.link} 
+                href={props.url} 
+                target={'_blank'}
                 title={`Link zu ${props.title}`}
               >
-                Ansehen
+                PDF Ansehen
               </a>
               : ''
             }

@@ -12,6 +12,7 @@ export const SwiperWrapper = (): JSX.Element => {
           title={item.TITLE}
           text={item.INFO}
           images={item.IMAGES.split(',').map(image => image.trim())} 
+          url={item.URL}
         />
       ))}
     </>

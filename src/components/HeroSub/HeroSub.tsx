@@ -9,9 +9,11 @@ interface HeroSubProps {
 interface InfoProps {
   intro?: string;
   todos?: string;
+  link?: string,
+  title?: string
 }
 
-const Info: React.FC<InfoProps> = ({ intro, todos }) => {
+const Info: React.FC<InfoProps> = ({ intro, todos, link, title }) => {
   return (
     <div 
       className={'info'}
@@ -22,6 +24,17 @@ const Info: React.FC<InfoProps> = ({ intro, todos }) => {
       <p>
         {intro}
       </p>
+      {link ?
+        <a 
+          className={'btn-primary'} 
+          href={link} 
+          target={'_BLANK'}
+          title={`Link zu ${title} Projektseite`}
+        >
+          Ansehen
+        </a>
+        : ''
+      }
       {todos && (
         <div className={'skilllist'}>
           <h3>Aufgaben</h3>
@@ -74,20 +87,15 @@ export const HeroSub = (props: HeroSubProps): JSX.Element => {
               >
                 {selectedObject?.TITLE}
               </span>
-              {selectedObject?.PROJECTLINK ?
-                <a 
-                  className={'btn-primary'} 
-                  href={selectedObject?.PROJECTLINK} 
-                  title={`Link zu ${selectedObject?.TITLE} Projektseite`}
-                >
-                  Ansehen
-                </a>
-                : ''
-              }
             </p>
           </h1>
           {width>768&&
-            <Info intro={selectedObject?.INTRO} todos={selectedObject?.TODOS} />
+            <Info 
+              intro={selectedObject?.INTRO} 
+              todos={selectedObject?.TODOS} 
+              link={selectedObject?.PROJECTLINK} 
+              title={selectedObject?.TITLE}
+            />
           }
         </div>
         <figure>
@@ -108,7 +116,12 @@ export const HeroSub = (props: HeroSubProps): JSX.Element => {
           </span>
         </figure>
           {width<768&&
-            <Info intro={selectedObject?.INTRO} todos={selectedObject?.TODOS} />
+            <Info 
+              intro={selectedObject?.INTRO} 
+              todos={selectedObject?.TODOS} 
+              link={selectedObject?.PROJECTLINK} 
+              title={selectedObject?.TITLE}
+            />
           }
       </header>
     </>

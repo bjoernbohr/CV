@@ -9,8 +9,21 @@
         "SOLUTION": "Der Ansatz konzentrierte sich darauf, eine benutzerfreundliche Website zu entwickeln, die die maßgeschneiderten Individualentwicklungen des Kunden ansprechend präsentiert. Es wurde eine klare Strukturierung und Navigation implementiert, um Besuchern ein leichtes Navigieren zu ermöglichen. Durch die Integration von aussagekräftigen Inhalten und visuellen Elementen wurde die Fachkompetenz und Innovationskraft von EDV-Ring hervorgehoben.",
         "TODOS": "Bedarfsanalyse, UX & UI Konzeption, Wireframes, MockUps, Development (mangolia CMS)",
         "IMG": "./assets/img/EDV.png",
-        "URL": "https://drive.proton.me/urls/MB4C8THHHG#YeehVfJbcQHz",
-        "WIREFRAMES": "EDV.png, EDV.png,EDV.png,EDV.png,"
+        "PROJECTLINK": "https://www.edvring.info/",
+        "ASSETS": {
+          "01": {
+            "TITLE": "Wireframes",
+            "INFO": "Ein zentrales Element der Wireframes lag auf dem sogenannten 'Produktrad', der die umfassenden Softwarelösungen aus einer flachen Excel-Liste in eine benutzerfreundliche Oberfläche überführt.",
+            "IMAGES": "edv/01.jpg, edv/02.jpg, edv/03.jpg",
+            "URL": "https://drive.proton.me/urls/N8E1YTPA7G#BM5xxdWaU8HU"
+          },
+          "02": {
+            "TITLE": "MockUps",
+            "INFO": "Beim erstellen der Mockups wurde darauf geachtet, sich am vorhandenen Corporate Design zu orientieren, um Kontinuität zu wahren. Gleichzeitig wurde jedoch ein modernes und eigenständigeres Design entwickelt, das den Anforderungen und Bedürfnissen des Kunden  entspricht.",
+            "IMAGES": "edv/mock_01.jpg, edv/mock_02.jpg",
+            "URL": "https://drive.proton.me/urls/W9N9JGT4H0#pJL83lomH3Ct"
+          }
+        }
       },
       "01": {
         "ID": "1",
@@ -28,39 +41,58 @@
       },
       "03": {
         "ID": "3",
-        "TITLE": "3D Konfigurator",
-        "SUB": "UX Konzeption, Umsetzung, Design",
+        "TITLE": "Lichtschienen Konfigurator",
+        "SUB": "UX Konzeption, User Research, Landingpage, Shopdesign, Frontend Development",
+        "TODO": "UX Konzeption, User Research, Landingpage, Shopdesign, Frontend Development",
+        "INTRO": "Der Kunde ist Anbieter von Beleuchtungslösungen für den Einzelhandel und möchte seinen Kunden ein interaktives Tool zur Verfügung stellen, mit dem diese Ihre eigenen Lichtschienensysteme konfigurieren können. Das Ziel ist es, den Kunden eine benutzerfreundliche Plattform zu bieten, die es ihnen ermöglicht, verschiedene Lichtschienenlayouts zu erstellen und die passenden Leuchten auszuwählen",
+        "SOLUTION": "Die Lösung bestand darin, ein benutzerfreundliches, interaktives und vielseitiges Tool zu entwickeln, das eine realistische Darstellung der Lichtschienen ermöglicht. Durch eine intuitive Benutzeroberfläche konnten Benutzer ohne technische Vorkenntnisse die Lichtschienen einfach konfigurieren und Änderungen in Echtzeit sehen.",
         "IMG": "./assets/img/lichtschienen.png",
-        "URL": "https://drive.proton.me/urls/T57M8KJ4NM#2vvHzWSznVql"
+        "URL": "https://lichtschienen.shop/",
+        "ASSETS": {
+          "01": {
+            "TITLE": "MockUps",
+            "INFO": "Für die Mockups wurde auf einem bereits vorhandenen Wireframe aufgebaut, um eine moderne und eigenständige Designsprache zu entwickeln.",
+            "IMAGES":"konfigurator/01.jpg, konfigurator/02.jpg, konfigurator/03.jpg, konfigurator/04.jpg",
+            "URL": "https://drive.proton.me/urls/RABK7N408C#hwcEFkOxM0Xs"
+          }
+        }
       },
       "04": {
         "ID": "4",
-        "TITLE": "Ecoparks",
+        "TITLE": "3D Industrie Planer",
+        "INTRO": "Die Vision des Kunden ist es, seinen Kunden einfache Ansicht der Bebauungslösungen zu bieten und seinen Vertriebsprozess zu optimieren und die Entscheidungsfindung seiner Kunden positiv zu beeinflussen. Ziel ist es, den ökonomischen und ökologischen Wert des Unternehmens zu demonstrieren und die Mietentscheidungen der Projektfreigeber zu unterstützen.",
+        "SOLUTION": "Um das Ziel zu erreichen, wurde die Entwicklung eines fortschrittlichen 3D-Konfigurators angestrebt. Dieser Konfigurator ermöglicht es dem Kunden, seinen Kunden auf einfache Weise Bebauungslösungen zu präsentieren. Durch die Anpassungsfähigkeit und Benutzerfreundlichkeit des Konfigurators wird der Vertriebsprozess effizienter gestaltet und die Kundenbindung gestärkt.",
         "SUB": "UX Konzeption",
-        "IMG": "./assets/img/ecopark.png",
-        "URL": "https://www.figma.com/file/FEp4WbfcV1vzbaNMz4YmVf/EcoParks_new?type=design&node-id=0%3A1&mode=design&t=Fp1hpABHlFyv5o9F-1"
+        "TODOS": "UX Konzeption",
+        "IMG": "./assets/img/park.png",
+        "PROJECTLINK": "https://www.figma.com/proto/ya5KlRIkrds6V6PsStpi8A/%C3%B6koPark_new?type=design&node-id=43-5128&t=DOgpRf7qMgxRLVYS-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=39%3A2798"
       },
       "05": {
         "ID": "5",
         "TITLE": "Easysmile",
         "SUB": "Logo Entwicklung, Konzept, Layout, Umsetzung",
+        "INTRO": "Das Produkt unterstützt Zahnarztpraxen bei der Optimierung ihrer täglichen Abläufe und der Vereinfachung der Abrechnung von Leistungen für private und gesetzlich versicherte Patienten. Als Berater für Zahnarztpraxen bietet unser Kunde Lösungen zur Organisation des Praxisbetriebs, um den Workflow im Behandlungsraum und die Abrechnungsprozesse für Arzthelferinnen zu verbessern. Unser Ziel ist es, den Praxismitarbeitern die Verwaltung ihrer Aufgaben zu erleichtern und gleichzeitig eine reibungslose Abrechnung und Unterscheidung zwischen privaten und gesetzlich versicherten Leistungen zu ermöglichen.",
         "IMG": "./assets/img/easysmile.png",
-        "URL": "https://drive.proton.me/urls/0187FACHH0#PM9T0yCdrBbg",
+        "TODOS": "Bedarfsanalyse, Logoentwicklung, UX & UI Konzeption, Wireframes, MockUps, Development (mangolia CMS)",
+        "SOLUTION": "Das Hauptaugenmerk lag darauf, eine benutzerfreundliche Lösung zu entwickeln, die auch für Personen ohne technisches Fachwissen leicht zu bedienen ist. Es wurde besonderer Wert darauf gelegt, eine schnelle Bedienbarkeit zu ermöglichen, ohne dabei komplexe Menüstrukturen zu erfordern. Zudem wurde ein spezielles Rechte- und Rollensystem implementiert, um die Nutzung effizient und sicher zu gestalten, und zwar angepasst an die verschiedenen Angebote.",
         "ASSETS": {
           "01": {
             "TITLE": "Logo",
             "INFO": "Das Logo sollte schlicht wirken, aber gleichzeitig eine klare Abgrenzung zum klassischen Zahnarztdesign aufweisen. Es sollte auf allen Bildschirmgrößen gut erkennbar sein und auch als App-Icon verwendet werden können.",
-            "IMAGES": "EDV.png, EDV.png, EDV.png, EDV.png"
+            "IMAGES":  "easysmile/big.png, easysmile/small.png, easysmile/icon.png",
+            "URL": "https://drive.proton.me/urls/HSJYZX9RWC#b7y59K4VHeo7"
           },
           "02": {
             "TITLE": "Wireframes",
             "INFO": "Das Ziel bestand darin, eine Vielzahl von Anwendungen schnell zugänglich zu machen, ohne die Benutzer zu überfordern. Zusätzlich sollten die einzelnen Behandlungen favorisiert werden können und die jeweiligen Abrechnungsgrundlagen enthalten.",
-            "IMAGES": "EDV.png, EDV.png, EDV.png, EDV.png"
+            "IMAGES":  "easysmile/01.jpg, easysmile/02.jpg, easysmile/03.jpg, easysmile/04.jpg",
+            "URL": "https://drive.proton.me/urls/N6YENSAD88#2D9jGRjPnxkG"
           },
           "03": {
             "TITLE": "MockUps",
             "INFO": "Basierend auf den Ergebnissen der Wireframes wurden die folgenden High- Fidelity-Mockups erstellt.",
-            "IMAGES": "EDV.png, EDV.png, EDV.png, EDV.png"
+            "IMAGES": "easysmile/mock_01.jpg, easysmile/mock_02.jpg, easysmile/mock_03.jpg, easysmile/mock_04.jpg",
+            "URL": "https://drive.proton.me/urls/DKHC66QA64#h7qsYsvKBCbS"
           }
         }
       }
