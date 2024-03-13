@@ -3,7 +3,7 @@ import { About } from "../../components/About/About";
 import { Divider } from "../../components/Divider/Divider";
 import { Experience } from "../../components/Experience/Experience";
 import { Hero } from "../../components/Hero/Hero";
-import { Work } from "../../components/Work/Work";
+import { Work } from "../../components/work/Work";
 
 export const Home = (): JSX.Element => {
   return (
