@@ -7,11 +7,15 @@
 }
 
 .hero-sub h1 {
-  @apply mx-auto sm:ml-14 lg:w-[750px] lg:pt-4;
+  @apply mx-auto sm:ml-14 md:max-w-[750px] w-fit lg:pt-4;
+}
+
+.hero-sub h1 p {
+  @apply  w-full;
 }
 
 .hero-sub h1 span {
-  @apply text-4xl sm:text-7xl lg:text-8xl uppercase;
+  @apply text-4xl sm:text-7xl lg:text-8xl uppercase w-full;
 }
 
 .hero-sub h1 span:first-of-type {
