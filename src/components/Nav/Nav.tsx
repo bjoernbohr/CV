@@ -26,7 +26,7 @@ export const Nav = (): JSX.Element => {
   const linkItems = Object.values(LINKS[0]).map((link, index) => (
     <li key={index}>
       <a
-        href={link.LINK === 'contact' ? 'contact' : `/${link.LINK}`}
+        href={link.LINK === 'contact' ? 'contact' : `/CV/#${link.LINK}`}
         title={link.TITLE}
         className={`link link-${index}`}
         onClick={handleLinkClick} 

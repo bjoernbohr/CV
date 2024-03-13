@@ -73,7 +73,7 @@ export const Work = (): JSX.Element => {
                 key={`${val['TITLE']}-${index}`}
                 className={'work-item'}
               >
-                <Link to={`/casestudies/${i}`} title={val['TITLE']} />
+                <Link to={`casestudies/${i}`} title={val['TITLE']} />
                 <span className={'number'}>{`0${i+1}. `}</span>
                 <div className={'title'}>
                   <h2 data-aos-delay="250">

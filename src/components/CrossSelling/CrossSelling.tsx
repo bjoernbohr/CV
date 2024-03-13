@@ -14,7 +14,7 @@ export const CrossSelling = (props: CrossSellingProps): JSX.Element => {
     <>
       <Divider title={'Weitere Projekte'} />
       <section className={'cross-selling'}>
-        <Link to={`/casestudies/${selectedObject?.ID}`}/>
+        <Link to={`casestudies/${selectedObject?.ID}`}/>
         <h2>{selectedObject?.TITLE}</h2>
         <label className={'btn-primary'} >Auch Interessant</label>
         <span className={'d-element'}></span>
