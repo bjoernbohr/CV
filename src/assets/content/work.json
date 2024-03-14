@@ -30,7 +30,7 @@
         "TITLE": "HACCP24",
         "INTRO": "Im Zuge der fortschreitenden Digitalisierung und der steigenden Anforderungen an die Erfassung von Hygienedaten stand der Kunde vor der Herausforderung, seine Software zu überarbeiten. Mit dem Ziel, eine modernisierte Plattform mit einem verbesserten UX-Konzept und UI zu schaffen, wurde ein umfassenden Relaunch durchgeführt.",
         "SUB": "UX Lead, Konzeption, Anforderungsaufnahme, User Research",
-        "TODO": "UX Lead, Konzeption, Anforderungsaufnahme, User Research",
+        "TODOS": "UX Lead, Konzeption, Anforderungsaufnahme, User Research",
         "SOLUTION": "Durch eine sorgfältige Planung und Umsetzung wurde eine leistungsfähige und benutzerfreundliche Plattform entwickelt. Diese Lösung gewährleistete eine effiziente Verwaltung der erfassten und verarbeiteten Hygienedaten. Die reibungslose Datenerfassung und -verwaltung für die Anwender spielte eine entscheidende Rolle für den reibungslosen Ablauf der Prozesse.",
         "IMG": "./assets/img/haccp.png",
         "URL": "https://drive.proton.me/urls/P1W4G42V4R#8QBecM2zRx8X",
@@ -52,9 +52,9 @@
         "ID": "2",
         "TITLE": "Digitale Haushaltsplanung",
         "SUB": "UX Lead, Konzeption, Anforderungsaufnahme, User Research",
-        "TODO": "UX Lead, Konzeption, Anforderungsaufnahme, User Research",
+        "TODOS": "UX Lead, Konzeption, Anforderungsaufnahme, User Research",
         "INTRO": "Der Kunde verfügt über ein System für digitale Haushaltsplanung mit zahlreichen Grundmasken, das im Laufe der Jahre gewachsen ist. Im Zuge eines Technologiewechsels strebt der Kunde auch eine Neubetrachtung des UX- und UI-Designs an.",
-        "SOLUTION": "",
+        "SOLUTION": "In Zusammenarbeit mit dem Kunden wurden einzelne Bereiche priorisiert welche dann in kurzen intervallen von 3-4 Tagen neu konzeptionert wurden. Dabei wurde sich am im Aufbau befindliochen Digitalen Brand Guide orientiert.",
         "IMG": "./assets/img/ikvs.png",
         "URL": "https://www.figma.com/proto/djnCVBsVZdNISTDYD8dL6E/planung?type=design&node-id=515-1407&t=1X2J0FDtCgAh5JiO-0&scaling=min-zoom&page-id=514%3A857&starting-point-node-id=515%3A1407&show-proto-sidebar=1",
         "ASSETS": {
@@ -65,7 +65,6 @@
           },
           "02": {
             "TITLE": "Konzept",
-            "INFO": "In enger Zusammenarbeit mit dem Kunden wurden bestimmte Bereiche priorisiert, die dann in kurzen Intervallen von 3-4 Tagen neu konzipiert wurden. Dabei orientierten wir uns am sich im Aufbau befindlichen digitalen Brand Guide des Kunden.",
             "IMAGES": "haushalt/konzept_01.jpg, haushalt/konzept_03.jpg, haushalt/konzept_03.jpg, haushalt/konzept_04.jpg",
             "URL": "https://www.figma.com/proto/djnCVBsVZdNISTDYD8dL6E/planung?type=design&node-id=515-1407&t=1X2J0FDtCgAh5JiO-0&scaling=min-zoom&page-id=514%3A857&starting-point-node-id=515%3A1407&show-proto-sidebar=1"
           }
@@ -75,10 +74,10 @@
         "ID": "3",
         "TITLE": "Lichtschienen Konfigurator",
         "SUB": "UX Lead, Konzeption, User Research, Landingpage, Shopdesign, Frontend Development",
-        "TODO": "UX Lead, Konzeption, User Research, Landingpage, Shopdesign, Frontend Development",
         "INTRO": "Der Kunde ist Anbieter von Beleuchtungslösungen für den Einzelhandel und möchte seinen Kunden ein interaktives Tool zur Verfügung stellen, mit dem diese Ihre eigenen Lichtschienensysteme konfigurieren können. Das Ziel ist es, den Kunden eine benutzerfreundliche Plattform zu bieten, die es ihnen ermöglicht, verschiedene Lichtschienenlayouts zu erstellen und die passenden Leuchten auszuwählen",
-        "SOLUTION": "Die Lösung bestand darin, ein benutzerfreundliches, interaktives und vielseitiges Tool zu entwickeln, das eine realistische Darstellung der Lichtschienen ermöglicht. Durch eine intuitive Benutzeroberfläche konnten Benutzer ohne technische Vorkenntnisse die Lichtschienen einfach konfigurieren und Änderungen in Echtzeit sehen.",
         "IMG": "./assets/img/lichtschienen.png",
+        "TODOS": "UX Lead, Konzeption, User Research, Landingpage, Shopdesign, Frontend Development",
+        "SOLUTION": "Die Lösung bestand darin, ein benutzerfreundliches, interaktives und vielseitiges Tool zu entwickeln, das eine realistische Darstellung der Lichtschienen ermöglicht. Durch eine intuitive Benutzeroberfläche konnten Benutzer ohne technische Vorkenntnisse die Lichtschienen einfach konfigurieren und Änderungen in Echtzeit sehen.",
         "URL": "https://lichtschienen.shop/",
         "ASSETS": {
           "01": {

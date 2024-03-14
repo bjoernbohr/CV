@@ -1,5 +1,5 @@
 .hero-sub {
-  @apply my-12 sm:flex-row scroll-mt-0;
+  @apply my-12 mb-0 sm:flex-row scroll-mt-0;
 }
 
 .hero-sub .hero-sub-content {
@@ -7,15 +7,16 @@
 }
 
 .hero-sub h1 {
-  @apply mx-auto sm:ml-14 w-fit lg:pt-4;
+  @apply mx-auto w-auto md:w-fit lg:pt-4 md:max-w-[750px];
 }
 
 .hero-sub h1 p {
-  @apply  w-fit;
+  @apply  w-full;
 }
 
 .hero-sub h1 span {
-  @apply text-4xl sm:text-7xl xl:text-8xl uppercase w-full;
+  @apply text-4xl sm:text-7xl xl:text-8xl uppercase w-full hyphens-auto;
+  word-wrap: break-word;
 }
 
 .hero-sub h1 span:first-of-type {
@@ -25,12 +26,12 @@
 }
 
 .hero-sub h1 span:last-of-type {
-  @apply md:text-copperfield;
+  @apply md:text-copperfield hidden md:block;
   -webkit-text-stroke-width: 0px;
  }
 
 .hero.hero-sub figure {
-  @apply relative sm:self-center xl:self-start md:w-6/12 lg:w-7/12 h-[250px] sm:h-auto -z-[0] -mt-8 md:m-0 overflow-hidden;
+  @apply relative sm:self-center xl:self-start md:w-6/12 lg:w-7/12 h-[250px] sm:h-auto -z-[0] mt-4 md:m-0 overflow-hidden;
 }
 
 .hero.hero-sub figure span {

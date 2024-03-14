@@ -3,7 +3,7 @@ nav {
 }
 
 nav > div {
-      @apply flex items-center justify-center md:justify-end md:mx-auto md:container;
+      @apply flex items-center justify-between md:justify-end md:mx-auto md:container;
 }
 
 
@@ -162,6 +162,11 @@ nav .menu li a:hover {
 .logo {
       @apply flex items-center justify-between px-4;
 }
+
+.logo div {
+      @apply px-0;
+}
+
 
 nav .social {
       @apply flex items-center w-auto m-0 p-0;

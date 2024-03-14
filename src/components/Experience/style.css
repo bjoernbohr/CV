@@ -17,9 +17,7 @@
 
 .position:not(:first-child) .date {
       @apply after:bottom-full after:bg-copperfield;
-
 }
-
 
 .position p {
       @apply italic;
@@ -32,6 +30,10 @@
 .position .date::after {
       content: '';
       @apply  absolute block w-[1px] h-full  bg-copperfield;      
+}
+
+.position .title {
+      @apply pl-4 md:pl-6 w-auto;
 }
 
 .sub {
@@ -53,9 +55,10 @@
 
 
 h4 {
-      @apply font-marcellus text-2xl uppercase text-copperfield tracking-widest leading-tight w-full;
+      @apply font-marcellus text-2xl uppercase text-copperfield tracking-widest leading-tight w-auto;
+      word-break: break-word;
 }
 
 p {
-      @apply text-waterloo font-montserrat text-base tracking-wide leading-6 text-start w-full;
+      @apply text-waterloo font-montserrat text-base tracking-wide leading-6 text-start w-auto;
 }

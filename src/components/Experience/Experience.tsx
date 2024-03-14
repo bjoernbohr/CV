@@ -49,11 +49,9 @@ export const Experience = (): JSX.Element => {
                     <span>–</span>
                     <span>{val['FROM']}</span>
                   </div>
-                  <div className={"flex flex-wrap items-center pl-8"}>
-                    <div>
+                  <div className={"title"}>
                       <h4>{val['TEXT']}</h4>
                       <p>{val['WO']}</p>
-                    </div>
                   </div>
                 </div>
                 {val['SUB']?

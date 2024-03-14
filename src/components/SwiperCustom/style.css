@@ -12,11 +12,11 @@
 
 .swiper-custom-wrapper::after {
   content: '';
-  @apply absolute inset-x-6 sm:inset-x-0 top-16 sm:top-20 lg:top-0 bottom-8 lg:bottom-12  pointer-events-none border border-copperfield z-[1];
+  @apply absolute inset-x-6 sm:inset-x-0 top-0 bottom-8 lg:bottom-12  pointer-events-none border border-copperfield z-[1];
 }
 
 .swiper-custom-content {
-  @apply xl:flex w-full lg:mb-6 lg:mt-12;
+  @apply xl:flex w-full px-4 py-5 lg:mb-6 lg:mt-12;
 }
 
 .swiper-custom-content .title {
@@ -24,17 +24,17 @@
 }
 
 .swiper-custom-content .title h2 {
-  @apply z-auto text-left xl:text-7xl m-0 p-0;
+  @apply z-auto text-left text-4xl sm:text-6xl md:text-7xl m-0 p-0;
 }
 
 .swiper-custom-content .title span {
-  @apply absolute hidden xl:inline top-0 font-marcellus text-transparent text-5xl sm:text-6xl md:text-7xl uppercase tracking-widest leading-tight text-left mx-auto pointer-events-none z-[2];
+  @apply absolute hidden xl:inline top-0 font-marcellus text-transparent text-4xl sm:text-6xl md:text-7xl uppercase tracking-widest leading-tight text-left mx-auto pointer-events-none z-[2];
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: theme(colors.copperfield.500);
 }
 
 .swiper-custom-content div {
-  @apply mt-6 mb-4 px-4 sm:px-0 xl:m-0 xl:pl-6 ;
+  @apply xl:pl-6;
 }
 
 

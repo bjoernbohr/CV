@@ -19,6 +19,9 @@ html {
     @apply overflow-x-hidden;
 }
 
+body {
+    @apply overflow-x-hidden;
+}
 
 form {
     @apply w-full;
@@ -30,8 +33,9 @@ textarea {
     @apply border-b-2 border-copperfield-100 bg-transparent text-copperfield-100;
 }
 
+
 h1, h1 span {
-    @apply relative font-marcellus text-6xl sm:text-7xl md:text-8xl lg:text-8xl xl:text-9xl uppercase text-copperfield tracking-widest leading-none text-center w-min 2xl:w-full md:top-4 lg:top-12 max-w-full break-words;
+    @apply relative font-marcellus text-6xl sm:text-7xl md:text-8xl lg:text-8xl xl:text-9xl uppercase text-copperfield tracking-widest leading-none text-center w-full md:top-4 lg:top-12 max-w-full hyphens-auto;
 }
 
 h2, h2 span, h2 + .stroke {
@@ -58,7 +62,7 @@ h3 {
 }
 
 h4 {
-    @apply font-marcellus text-2xl uppercase text-copperfield tracking-widest leading-tight w-full;
+    @apply font-marcellus text-2xl uppercase text-copperfield tracking-widest leading-tight w-auto hyphens-auto;
 }
 
 p {

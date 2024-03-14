@@ -1,5 +1,5 @@
 .hero {
-     @apply container relative flex flex-wrap items-center justify-center w-full mx-auto lg:min-h-[650px] py-12 md:my-12 lg:mt-0 lg:mb-24 2xl:mt-20 px-6 scroll-mt-32;
+     @apply container relative flex flex-wrap items-center justify-center w-full mx-auto lg:min-h-[650px] py-12 mt-12 mb-8 lg:mt-0 lg:mb-24 2xl:mt-20 px-6 scroll-mt-32;
 }
 .hero span {
     @apply block tracking-[1rem] first:-z-[1] inset-0;

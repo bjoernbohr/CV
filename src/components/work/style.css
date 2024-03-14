@@ -64,7 +64,10 @@
 
 .work-item .title h3 {
     @apply w-full text-waterloo italic whitespace-normal bg-transparent break-words;
+    word-wrap: break-word;
+    hyphens: auto;
 }
+
 
 .work-item:hover h2 span:last-child {
     @apply opacity-100;
