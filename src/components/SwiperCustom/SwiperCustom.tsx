@@ -45,47 +45,54 @@ export const SwiperCustom = (props: CustomSwiperProps): JSX.Element => {
               {props.title}
             </span>
           </div>
-          <p
-            data-aos={'fade-up'}
-            data-aos-once={'true'}
-            data-aos-delay={300}
-            data-aos-offset={250}
-          >
-            {props.text}
+          <div>            <p
+              data-aos={'fade-up'}
+              data-aos-once={'true'}
+              data-aos-delay={300}
+              data-aos-offset={250}
+            >
+              {props.text}
+            </p>
             {props.url ?
               <a 
                 className={'btn-primary'} 
                 href={props.url} 
                 target={'_blank'}
                 title={`Link zu ${props.title}`}
+                data-aos={'fade-up'}
+                data-aos-once={'true'}
+                data-aos-delay={300}
+                data-aos-offset={250}
               >
-                PDF Ansehen
+                Ansehen
               </a>
               : ''
             }
-          </p>
+          </div>
         </div>
-        <div 
-          className={'swiper-custom-swipes'}
-          data-aos={'fade-up'}
-          data-aos-once={'true'}
-          data-aos-delay={250}
-          data-aos-offset={250}
-        >
-          <Swiper
-            spaceBetween={20}
-            slidesPerView={1}
-            navigation={true}
-            modules={[Navigation]}
-          >
+          <div 
+            className={'swiper-custom-swipes'}
+            data-aos={'fade-up'}
+            data-aos-once={'true'}
+            data-aos-delay={250}
+            data-aos-offset={250}
+          >    
+            <Swiper
+              spaceBetween={20}
+              slidesPerView={1}
+              navigation={true}
+              modules={[Navigation]}
+            >
 
-            {props.images && props.images.map((image:string, index:any) => (
-              <SwiperSlide key={index}>
-                <img src={`../assets/img/${image}`} alt="" />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
+              {props.images && props.images.map((image:string, index:any) => (
+                <SwiperSlide key={index}>
+                  <img src={`../assets/img/${image}`} alt="" />
+                  <img className={'bg'} src={`../assets/img/${image}`} alt="" />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+    
         <span className={'d-element'}></span>
         <span className={'d-element'}></span>
       </section>

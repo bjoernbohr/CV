@@ -1,5 +1,5 @@
 .swiper-custom-wrapper {
-  @apply relative items-start lg:flex lg:w-10/12 mx-auto my-12 md:my-24 px-6;
+  @apply relative items-start lg:flex flex-wrap justify-center lg:w-10/12 mx-auto my-12 md:my-24 px-6 lg:px-12;
 }
 
 .swiper-custom-wrapper:not(:only-child):nth-of-type(even) {
@@ -10,61 +10,64 @@
   @apply flex-row-reverse lg:-right-full lg:left-7;
 }
 
-.swiper-custom-wrapper:not(:only-child):nth-of-type(even) .title {
-  @apply lg:relative;
-  @screen lg {
-    right: calc(100% + 5rem);
-  }
-}
-
 .swiper-custom-wrapper::after {
   content: '';
-  @apply absolute lg:hidden inset-x-10 sm:inset-x-16 top-16 bottom-12 pointer-events-none border border-copperfield z-[1];
+  @apply absolute inset-x-6 sm:inset-x-0 top-16 sm:top-20 lg:top-0 bottom-8 lg:bottom-12  pointer-events-none border border-copperfield z-[1];
 }
 
 .swiper-custom-content {
-  @apply w-full sm:px-10 lg:w-1/2;
+  @apply xl:flex w-full lg:mb-6 lg:mt-12;
+}
+
+.swiper-custom-content .title {
+  @apply w-full xl:flex right-[unset] m-0 p-0;
 }
 
 .swiper-custom-content .title h2 {
-  @apply z-auto text-left;
+  @apply z-auto text-left xl:text-7xl m-0 p-0;
 }
 
 .swiper-custom-content .title span {
-  @apply absolute hidden xl:inline  top-0 font-marcellus text-transparent text-5xl sm:text-6xl md:text-7xl xl:text-8xl uppercase tracking-widest leading-tight text-left mx-auto pointer-events-none z-[2];
+  @apply absolute hidden xl:inline top-0 font-marcellus text-transparent text-5xl sm:text-6xl md:text-7xl uppercase tracking-widest leading-tight text-left mx-auto pointer-events-none z-[2];
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: theme(colors.copperfield.500);
 }
 
+.swiper-custom-content div {
+  @apply mt-6 mb-4 px-4 sm:px-0 xl:m-0 xl:pl-6 ;
+}
+
 
 .swiper-custom-content p {
-  @apply mt-6 mb-8 px-11 sm:px-6 max-w-[450px];
+  @apply md:columns-2 xl:columns-1;
+}
+
+.swiper-custom-content a {
+  @apply block mt-4;
 }
 
 @media (max-width:650px) {
   .swiper-custom-content h2 span {
-      @apply text-4xl text-left;
+      @apply text-4xl lg:text-7xl text-left;
     }
 }
 
 .swiper-custom-swipes {
-  @apply relative w-full lg:w-1/2 h-[320px] md:h-[500px] px-4 md:px-20;
-}
-
-
-.swiper-custom-swipes::after { 
-  content: '';
-  @apply absolute hidden lg:block -left-full right-7 top-16 bottom-16 pointer-events-none border border-copperfield z-[1];
-
+  @apply relative w-full h-auto px-10;
 }
 
 .swiper .swiper-slide {
-  @apply w-full h-auto;
+  @apply w-full h-auto overflow-hidden;
 }
 
-.swiper .swiper-slide img{
+.swiper .swiper-slide img {
   @apply w-full h-[320px] md:h-[500px] object-contain;
 }
+
+.swiper .swiper-slide .bg {
+  @apply absolute inset-0 -z-[1] blur-lg object-cover;
+}
+
 
 .swiper {
   @apply static;
@@ -76,11 +79,11 @@
 }
 
 .swiper-button-prev {
-  @apply -left-2;
+  @apply md:-left-2;
 }
 
 .swiper-button-next {
-  @apply rotate-180 -right-2;
+  @apply rotate-180 md:-right-2;
 }
 
 .swiper-button-prev::after,

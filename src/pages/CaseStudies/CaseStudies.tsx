@@ -7,15 +7,12 @@ import { Text } from '../../components/Text/Text';
 import { SwiperWrapper } from '../../components/SwiperWrapper/SwiperWrapper';
 import { CrossSelling } from '../../components/CrossSelling/CrossSelling';
 import  data  from '../../assets/content/work.json';
-import ScrollToTop from '../../hooks/ScrollToTop';
-
 
 export const CaseStudies = (): JSX.Element => {
-
-
-const randomId = Math.floor(Math.random() * Object.keys(data[0].INFO).length);  
-const { id } = useParams() as { id: string };
-
+  const { id } = useParams() as { id: string };
+  
+  const randomId = Math.floor(Math.random() * Object.keys(data[0].INFO).length);  
+  const finalId = randomId === parseInt(id) ? (randomId + 1) % Object.keys(data[0].INFO).length : randomId;
 
   return (
     <ViewportProvider>  
@@ -31,7 +28,7 @@ const { id } = useParams() as { id: string };
             <SwiperWrapper /> 
           </main>
       </SelectedObjectProvider>
-      <SelectedObjectProvider id={randomId.toString()}>  
+      <SelectedObjectProvider id={finalId.toString()}>  
         <CrossSelling />
       </SelectedObjectProvider>
     </ViewportProvider>  

@@ -1,5 +1,5 @@
 nav {
-      @apply fixed md:sticky border border-b-0 md:border-t-0 md:border-b border-l-0 border-r-0 border-copperfield w-full bottom-0 md:top-0 z-50 bg-copperfield-50;
+      @apply px-4 fixed md:sticky border border-b-0 md:border-t-0 md:border-b border-l-0 border-r-0 border-copperfield w-full bottom-0 md:top-0 z-50 bg-copperfield-50;
 }
 
 nav > div {
@@ -61,7 +61,7 @@ nav .menu li a:hover {
 
 
 .menu-trigger {
-      @apply container relative flex justify-center items-center w-full md:w-auto z-[51] py-3;
+      @apply container relative flex justify-center items-center w-auto md:w-auto z-[51] py-3;
 }
 
 .triggered + .menu {
@@ -152,4 +152,29 @@ nav .menu li a:hover {
 
 .triggered + .menu li .link-3 {
       @apply delay-[.45s];
+}
+
+.back-button {
+      @apply text-copperfield text-base tracking-widest font-semibold uppercase whitespace-nowrap px-1 bg-copperfield-50;
+}
+
+
+.logo {
+      @apply flex items-center justify-between px-4;
+}
+
+nav .social {
+      @apply flex items-center w-auto m-0 p-0;
+}
+
+nav .social .instagram svg path {
+      @apply stroke-copperfield-600;
+}
+
+nav .social .letterboxd {
+      @apply ml-2;
+}
+
+nav .social .letterboxd svg {
+      @apply fill-copperfield-600;
 }
