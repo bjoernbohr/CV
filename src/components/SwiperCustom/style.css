@@ -60,6 +60,12 @@
   @apply w-full h-auto overflow-hidden;
 }
 
+.swiper .swiper-slide::after {
+  content: '';
+  @apply absolute inset-0 -z-[1] bg-waterloo-900 opacity-35;
+}
+
+
 .swiper .swiper-slide img {
   @apply w-full h-[320px] md:h-[500px] object-contain;
 }
