@@ -3,7 +3,7 @@
     "INFO": {
       "00": {
         "ID": "0",
-        "TITLE": "Landgard EDV Ring",
+        "TITLE": "landgard edv ring",
         "SUB": "Anforderungsaufnahme, Konzeption, Umsetzung, Kundenbetreuung",
         "INTRO": "Der Webauftritt des Kunden sollte modernisiert und verbessert werden. Das Hauptziel bestand darin, die Produkte und Dienstleistungen des Kunden im Bereich 'Software für die Grüne Branche' optimal zu präsentieren. Zusätzlich sollte die Website das Image von EDV-Ring als traditionsbewussten, innovativen und genossenschaftlichen Partner vermitteln.",
         "SOLUTION": "Der Ansatz konzentrierte sich darauf, eine benutzerfreundliche Website zu entwickeln, die die maßgeschneiderten Individualentwicklungen des Kunden ansprechend präsentiert. Es wurde eine klare Strukturierung und Navigation implementiert, um Besuchern ein leichtes Navigieren zu ermöglichen. Durch die Integration von aussagekräftigen Inhalten und visuellen Elementen wurde die Fachkompetenz und Innovationskraft von EDV-Ring hervorgehoben.",
@@ -50,7 +50,7 @@
       },
       "02": {
         "ID": "2",
-        "TITLE": "Digitale Haushaltsplanung",
+        "TITLE": "digitale haushaltsplanung",
         "SUB": "UX Lead, Konzeption, Anforderungsaufnahme, User Research",
         "TODOS": "UX Lead, Konzeption, Anforderungsaufnahme, User Research",
         "INTRO": "Der Kunde verfügt über ein System für digitale Haushaltsplanung mit zahlreichen Grundmasken, das im Laufe der Jahre gewachsen ist. Im Zuge eines Technologiewechsels strebt der Kunde auch eine Neubetrachtung des UX- und UI-Designs an.",
@@ -72,7 +72,7 @@
       },
       "03": {
         "ID": "3",
-        "TITLE": "Lichtschienen Konfigurator",
+        "TITLE": "lichtschienen konfigurator",
         "SUB": "UX Lead, Konzeption, User Research, Landingpage, Shopdesign, Frontend Development",
         "INTRO": "Der Kunde ist Anbieter von Beleuchtungslösungen für den Einzelhandel und möchte seinen Kunden ein interaktives Tool zur Verfügung stellen, mit dem diese Ihre eigenen Lichtschienensysteme konfigurieren können. Das Ziel ist es, den Kunden eine benutzerfreundliche Plattform zu bieten, die es ihnen ermöglicht, verschiedene Lichtschienenlayouts zu erstellen und die passenden Leuchten auszuwählen",
         "IMG": "./assets/img/lichtschienen.png",
@@ -90,7 +90,7 @@
       },
       "04": {
         "ID": "4",
-        "TITLE": "Industrie Planer",
+        "TITLE": "industrie planer",
         "INTRO": "Die Vision des Kunden ist es, seinen Kunden einfache Ansicht der Bebauungslösungen zu bieten und seinen Vertriebsprozess zu optimieren und die Entscheidungsfindung seiner Kunden positiv zu beeinflussen. Ziel ist es, den ökonomischen und ökologischen Wert des Unternehmens zu demonstrieren und die Mietentscheidungen der Projektfreigeber zu unterstützen.",
         "SOLUTION": "Um das Ziel zu erreichen, wurde die Entwicklung eines fortschrittlichen 3D-Konfigurators angestrebt. Dieser Konfigurator ermöglicht es dem Kunden, seinen Kunden auf einfache Weise Bebauungslösungen zu präsentieren. Durch die Anpassungsfähigkeit und Benutzerfreundlichkeit des Konfigurators wird der Vertriebsprozess effizienter gestaltet und die Kundenbindung gestärkt.",
         "SUB": "UX Lead, Konzeption, User Research",
@@ -108,7 +108,7 @@
       },
       "05": {
         "ID": "5",
-        "TITLE": "Easysmile",
+        "TITLE": "easysmile",
         "SUB": "Logo Entwicklung, UX-Ui Lead, Konzept, Layout, Umsetzung",
         "INTRO": "Das Produkt unterstützt Zahnarztpraxen bei der Optimierung ihrer täglichen Abläufe und der Vereinfachung der Abrechnung von Leistungen für private und gesetzlich versicherte Patienten. Als Berater für Zahnarztpraxen bietet unser Kunde Lösungen zur Organisation des Praxisbetriebs, um den Workflow im Behandlungsraum und die Abrechnungsprozesse für Arzthelferinnen zu verbessern. Unser Ziel ist es, den Praxismitarbeitern die Verwaltung ihrer Aufgaben zu erleichtern und gleichzeitig eine reibungslose Abrechnung und Unterscheidung zwischen privaten und gesetzlich versicherten Leistungen zu ermöglichen.",
         "IMG": "./assets/img/easysmile.png",

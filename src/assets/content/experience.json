@@ -4,7 +4,7 @@
       "01": {
         "FROM": "2023",
         "TO": "2024",
-        "TEXT": "Head of Design",
+        "TEXT": "head of design",
         "WO": "Axians Germany (Ehem. S&T Digitalagentur)",
         "SUB": {     
           "01":{
@@ -18,25 +18,25 @@
       "02": {
         "FROM": "2019",
         "TO": "2023",
-        "TEXT": "Designer und Frontend Entwickler",
+        "TEXT": "designer und frontend entwickler",
         "WO": "S&T Digitalagentur  (Ehem. BIT IT Serivce GmbH)"
       },
       "03": {
         "FROM": "2016",
         "TO": "2019",
-        "TEXT": "Mediengestalter Digital",
+        "TEXT": "mediengestalter digital",
         "WO": "BIT IT Service GmbH"
       },
       "04": {
         "FROM": "2014",
         "TO": "2015",
-        "TEXT": "Mediengestalter Print",
+        "TEXT": "mediengestalter print",
         "WO": "Künster Druck GmbH"
       },
       "05": {
         "TO": "2014",
         "FROM": "2011",
-        "TEXT": "Ausbildung Mediengestalter Digital und Print",
+        "TEXT": "ausbildung mediengestalter digital und print",
         "WO": "Künster Druck GmbH"
       }
     }
