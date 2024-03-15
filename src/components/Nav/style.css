@@ -1,5 +1,5 @@
 nav {
-      @apply px-4 fixed md:sticky border border-b-0 md:border-t-0 md:border-b border-l-0 border-r-0 border-copperfield w-full bottom-0 md:top-0 z-50 bg-copperfield-50;
+      @apply px-4 fixed border border-t-0 md:border-t-0 md:border-b border-l-0 border-r-0 border-copperfield w-full top-0 z-50 bg-copperfield-50;
 }
 
 nav > div {
@@ -44,7 +44,7 @@ nav .menu li a:hover {
 }
 
 .logo {
-      @apply fixed max-w-full w-full bg-copperfield-50 border border-t-0 border-l-0 border-r-0 border-copperfield md:border-t md:border-b-0 left-0 right-0 top-0 md:top-[unset] md:bottom-0 py-5 z-10;
+      @apply fixed max-w-full w-full bg-copperfield-50 border border-b-0 border-l-0 border-r-0 border-copperfield md:border-t md:border-b-0 left-0 right-0 top-0 md:top-[unset] md:bottom-0 py-5 z-10;
 }
 
 .logo div {
@@ -160,7 +160,7 @@ nav .menu li a:hover {
 
 
 .logo {
-      @apply flex items-center justify-between px-4;
+      @apply flex items-center justify-between px-4 bottom-0 top-[unset];
 }
 
 .logo div {
