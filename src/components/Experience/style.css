@@ -1,5 +1,5 @@
 .experience-wrapper {
-      @apply relative lg:w-10/12 mx-auto my-12 md:my-24 px-6;
+      @apply relative lg:w-10/12 mx-auto my-12 md:my-24 sm:px-6;
 }
 
 .position {
