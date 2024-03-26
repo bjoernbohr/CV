@@ -49,6 +49,28 @@
         }
       },
       "02": {
+        "ID": "2",
+        "TITLE": "digitale haushaltsplanung",
+        "SUB": "UX Lead, Konzeption, Anforderungsaufnahme, User Research",
+        "TODOS": "UX Lead, Konzeption, Anforderungsaufnahme, User Research",
+        "INTRO": "Der Kunde verfügt über ein System für digitale Haushaltsplanung mit zahlreichen Grundmasken, das im Laufe der Jahre gewachsen ist. Im Zuge eines Technologiewechsels strebt der Kunde auch eine Neubetrachtung des UX- und UI-Designs an.",
+        "SOLUTION": "In Zusammenarbeit mit dem Kunden wurden einzelne Bereiche priorisiert welche dann in kurzen intervallen von 3-4 Tagen neu konzeptionert wurden. Dabei wurde sich am im Aufbau befindliochen Digitalen Brand Guide orientiert.",
+        "IMG": "./assets/img/ikvs.png",
+        "URL": "https://www.figma.com/proto/djnCVBsVZdNISTDYD8dL6E/planung?type=design&node-id=515-1407&t=1X2J0FDtCgAh5JiO-0&scaling=min-zoom&page-id=514%3A857&starting-point-node-id=515%3A1407&show-proto-sidebar=1",
+        "ASSETS": {
+          "01": {
+            "TITLE": "Bestandsystem",
+            "INFO": "Das Bestandsystem hat sich im Laufe der Zeit organisch weiterentwickelt, wobei das ursprüngliche Konzept nie auf die Vielzahl von Anpassungsmöglichkeiten und die komplexe Tiefenstruktur vorbereitet war.",
+            "IMAGES": "haushalt/01.jpg, haushalt/02.jpg, haushalt/03.jpg, haushalt/04.jpg"
+          },
+          "02": {
+            "TITLE": "Konzept",
+            "IMAGES": "haushalt/konzept_01.jpg, haushalt/konzept_03.jpg, haushalt/konzept_03.jpg, haushalt/konzept_04.jpg",
+            "URL": "https://www.figma.com/proto/djnCVBsVZdNISTDYD8dL6E/planung?type=design&node-id=515-1407&t=1X2J0FDtCgAh5JiO-0&scaling=min-zoom&page-id=514%3A857&starting-point-node-id=515%3A1407&show-proto-sidebar=1"
+          }
+        }
+      },
+      "03": {
         "ID": "3",
         "TITLE": "lichtschienen konfigurator",
         "SUB": "UX Lead, Konzeption, User Research, Landingpage, Shopdesign, Frontend Development",
@@ -66,7 +88,7 @@
           }
         }
       },
-      "03": {
+      "04": {
         "ID": "4",
         "TITLE": "industrie planer",
         "INTRO": "Die Vision des Kunden ist es, seinen Kunden einfache Ansicht der Bebauungslösungen zu bieten und seinen Vertriebsprozess zu optimieren und die Entscheidungsfindung seiner Kunden positiv zu beeinflussen. Ziel ist es, den ökonomischen und ökologischen Wert des Unternehmens zu demonstrieren und die Mietentscheidungen der Projektfreigeber zu unterstützen.",
@@ -84,7 +106,7 @@
           }
         }
       },
-      "04": {
+      "05": {
         "ID": "5",
         "TITLE": "easysmile",
         "SUB": "Logo Entwicklung, UX-Ui Lead, Konzept, Layout, Umsetzung",
